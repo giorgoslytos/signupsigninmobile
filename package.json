@@ -1,0 +1,22 @@
+{
+  "name": "bikesnroses",
+  "version": "1.0.0",
+  "description": "e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass sass/main.scss css/style.min.css --output-style compressed --source-map true",
+    "css:watch": "npm run css && node-sass sass/main.scss -wo css/style.min.css"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
+  },
+  "author": "Georgios Litos",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "4.12.0"
+  }
+}
