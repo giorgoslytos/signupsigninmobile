@@ -12,7 +12,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "author": "Georgios Litos",
   "license": "ISC",
